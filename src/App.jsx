@@ -16,7 +16,7 @@ import "@aws-amplify/ui-react/styles.css"
 import { getUrl, uploadData } from "aws-amplify/storage"
 import { generateClient } from "aws-amplify/data"
 import outputs from "../amplify_outputs.json"
-
+0
 
 /**
  * 
@@ -168,7 +168,7 @@ export default function App() {
                   variation="destructive"
                   onClick={() => deleteNote(note)}
                 >
-                  Delete Note
+                  Delete note
                 </Button>
               </Flex>
             ))}
