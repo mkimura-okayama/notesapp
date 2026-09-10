@@ -2,7 +2,13 @@
   "name": "notesapp",
   "private": true,
   "version": "0.0.0",
-  "allowScripts": true,
+  "allowScripts": {
+    "esbuild@0.25.12": true,
+    "esbuild@0.28.2": true,
+    "@parcel/watcher@2.6.0": true,
+    "core-js@2.6.12": true,
+    "core-js@3.50.0": true
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,6 +17,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^6.15.6",
     "aws-amplify": "^6.20.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
